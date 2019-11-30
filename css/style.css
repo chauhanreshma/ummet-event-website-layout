@@ -91,9 +91,29 @@
 .left-contain p{
     font-size: 15px;
 }
+@media (max-width: 1024px) {
+    .minute{
+        position: relative;
+        left: 110px;
+        bottom: 70px;
+    }
+}
 @media (max-width: 800px) {
     .left-contain h4{
         width:55%;
+    }
+    .minute{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+    .left-contain p{
+        padding-bottom: 35px;
+    }
+    .date{
+        position: relative;
+        bottom: 30px;
+        left: 100px;
     }
 }
 @media (max-width: 600px) {
@@ -101,42 +121,75 @@
         width:100%;
         font-size: 21px;
     }
+    .day{
+        position: relative;
+        right: 35px;
+    }
+    .hour{
+        position: relative;
+        right: 35px;
+    }
+    .minute{
+        position: relative;
+        bottom: 55px;
+        left: 50px;
+    }
 }
 @media (max-width: 400px) {
     .left-contain h4{
         width:100%;
         font-size: 19px;
     }
+
 }
 @media (max-width: 320px) {
     .left-contain h4{
         width:100%;
         font-size: 21px;
     }
+    .day{
+        position: relative;
+        right: 70px;
+    }
+    .hour{
+        position: relative;
+        right: 45px;
+    }
+    .minute{
+        position: relative;
+        bottom: 55px;
+        left: 0px;
+    }
 }
-.right-contain h3{
+.day h3{
     position: relative;
     bottom: 102px;
     margin-left: 43px;
     color: #3b1d82;
 }
-.right-contain span{
+.day span{
     font-size: 14px;
     font-weight: 300;
     position: relative;
     bottom: 114px;
     margin-left: 53px;
 }
-.right-contain .hours h3 {
+.hour h3 {
     position: relative;
     bottom: 102px;
     margin-left: 50px;
     color: #3b1d82;
 }
-.right-contain .hours span{
+.hour span{
     position: relative;
     bottom: 115px;
     margin-left: 50px;
     color: #3b1d82;
 }
-
+.date{
+    color: #ea0763;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
