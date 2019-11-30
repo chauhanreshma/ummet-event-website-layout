@@ -26,24 +26,6 @@
 .banner-section {
     padding-top: 150px;
 }
-
-/*@media (min-width: 1200px) {*/
-/*    .banner-container{*/
-/*        padding: 120px 0px;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 768px){*/
-/*    .banner-section h1{*/
-/*        font-size: 60px;*/
-/*    }*/
-/*}*/
-
-@media (max-width: 800px) {
-    .banner-section {
-        padding: 80px 0px;
-    }
-}
-
 @media (max-width: 600px) {
     .banner-section img {
         width: 35px;
@@ -84,10 +66,9 @@
 
 .Innovative-con {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background-color: #f7f7f7;
 }
-
 .left-contain h4 {
     color: #3b1d82;
     font-weight: 500;
@@ -101,11 +82,23 @@
 .left-contain p {
     font-size: 15px;
 }
+@media (min-width: 1024px){
+    .date{
+        position: relative;
+        bottom: 30px;
+        left: 100px;
+    }
+}
 @media (max-width: 1024px) {
     .minute {
         position: relative;
         left: 110px;
         bottom: 70px;
+    }
+    .date{
+        position: relative;
+        bottom: 90px;
+        left: 50px;
     }
 }
 @media (max-width: 800px) {
@@ -120,11 +113,10 @@
     .left-contain p {
         padding-bottom: 35px;
     }
-    .date {
-        margin-left: 80px;
-    }
-    .date a{
-        margin-right: 290px;
+    .date{
+        position: relative;
+        bottom: 30px;
+        left: 145px;
     }
 }
 
@@ -146,6 +138,11 @@
         bottom: 55px;
         left: 50px;
     }
+    .date{
+        position: relative;
+        bottom: 90px;
+        left: -25px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -153,39 +150,32 @@
         width: 100%;
         font-size: 19px;
     }
-
 }
-
 @media (max-width: 320px) {
     .left-contain h4 {
         width: 100%;
         font-size: 21px;
     }
-
     .day {
         position: relative;
         right: 70px;
     }
-
     .hour {
         position: relative;
         right: 45px;
     }
-
     .minute {
         position: relative;
         bottom: 55px;
         left: 0px;
     }
 }
-
 .day h3 {
     position: relative;
     bottom: 102px;
     margin-left: 43px;
     color: #3b1d82;
 }
-
 .day span {
     font-size: 14px;
     font-weight: 300;
@@ -193,38 +183,59 @@
     bottom: 114px;
     margin-left: 53px;
 }
-
 .hour h3 {
     position: relative;
     bottom: 102px;
     margin-left: 50px;
     color: #3b1d82;
 }
-
 .hour span {
     position: relative;
     bottom: 115px;
     margin-left: 50px;
     color: #3b1d82;
 }
-
 .date {
     color: #ea0763;
     font-size: 18px;
-    position: relative;
-    bottom: 30px;
-    left: 100px;
 }
 .get-ticket {
     color: #3b1d82;
     font-size: 13px;
 }
-
 .get-ticket:hover {
     color: #3b1d82;
 }
 
 /*<!--<three section>-->*/
+.ummet-section{
+    padding: 110px 0px;
+}
+.ummet-intro{
+    font-family: 'Oswald', sans-serif;
+}
+.ummet-intro h1{
+    color: #3b1d82;
+}
+.gray-img :hover .blue-img{
+    opacity: 1;
+    position: relative;
+}
+.blue-img{
+    position: relative;
+    bottom: 97px;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+/*<four section>*/
 .section-padding{
     padding: 120px 0;
 }
