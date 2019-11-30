@@ -26,11 +26,16 @@
 .banner-section{
     padding-top: 150px;
 }
-@media (min-width: 700px){
-    .banner-section h1{
-        font-size: 60px;
-    }
-}
+/*@media (min-width: 1200px) {*/
+/*    .banner-container{*/
+/*        padding: 120px 0px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 768px){*/
+/*    .banner-section h1{*/
+/*        font-size: 60px;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 800px) {
     .banner-section {
@@ -40,6 +45,9 @@
 @media (max-width: 600px) {
     .banner-section img {
         width: 35px;
+    }
+    .banner-section h1 {
+        font-size: 20px;
     }
 }
 .bg-img {
@@ -52,7 +60,7 @@
     font-weight: 400;
 }
 .banner-section h1 {
-    font-size: 28px;
+    font-size: 56px;
 }
 .bay-ticket{
     padding: 13px 45px;
@@ -61,8 +69,74 @@
     border-radius: 5px;
 }
 .bay-ticket:hover{
-    color: #b8024c;
     text-decoration: none;
-    border: solid 1px #ea0763;
-
+    background-color: #b8024c;
 }
+
+/*<!--<two section>-->*/
+
+.Innovative-con{
+    padding: 120px 0px;
+    background-color: #f7f7f7;
+}
+.left-contain h4{
+    color: #3b1d82;
+    font-weight: 500;
+    width: 45%;
+    font-family: 'Oswald', sans-serif;
+}
+.left-contain h5 {
+    color: #ea0763;
+}
+.left-contain p{
+    font-size: 15px;
+}
+@media (max-width: 800px) {
+    .left-contain h4{
+        width:55%;
+    }
+}
+@media (max-width: 600px) {
+    .left-contain h4{
+        width:100%;
+        font-size: 21px;
+    }
+}
+@media (max-width: 400px) {
+    .left-contain h4{
+        width:100%;
+        font-size: 19px;
+    }
+}
+@media (max-width: 320px) {
+    .left-contain h4{
+        width:100%;
+        font-size: 21px;
+    }
+}
+.right-contain h3{
+    position: relative;
+    bottom: 102px;
+    margin-left: 43px;
+    color: #3b1d82;
+}
+.right-contain span{
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    bottom: 114px;
+    margin-left: 53px;
+}
+.right-contain .hours h3 {
+    position: relative;
+    bottom: 102px;
+    margin-left: 50px;
+    color: #3b1d82;
+}
+.right-contain .hours span{
+    position: relative;
+    bottom: 115px;
+    margin-left: 50px;
+    color: #3b1d82;
+}
+
