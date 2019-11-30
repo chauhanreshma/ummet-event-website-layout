@@ -23,9 +23,10 @@
 
 /*<!--<one section>-->*/
 
-.banner-section{
+.banner-section {
     padding-top: 150px;
 }
+
 /*@media (min-width: 1200px) {*/
 /*    .banner-container{*/
 /*        padding: 120px 0px;*/
@@ -42,14 +43,17 @@
         padding: 80px 0px;
     }
 }
+
 @media (max-width: 600px) {
     .banner-section img {
         width: 35px;
     }
+
     .banner-section h1 {
         font-size: 20px;
     }
 }
+
 .bg-img {
     background-image: url("../image/hero-banner.png");
     background-size: cover;
@@ -59,27 +63,32 @@
 .banner-section h4 {
     font-weight: 400;
 }
+
 .banner-section h1 {
     font-size: 56px;
 }
-.bay-ticket{
+
+.bay-ticket {
     padding: 13px 45px;
     background-color: #ea0763;
     border: solid 1px #ea0763;
     border-radius: 5px;
 }
-.bay-ticket:hover{
+
+.bay-ticket:hover {
     text-decoration: none;
     background-color: #b8024c;
 }
 
 /*<!--<two section>-->*/
 
-.Innovative-con{
-    padding: 120px 0px;
+.Innovative-con {
+    padding-top: 120px;
+    padding-bottom: 60px;
     background-color: #f7f7f7;
 }
-.left-contain h4{
+
+.left-contain h4 {
     color: #3b1d82;
     font-weight: 500;
     width: 45%;
@@ -88,108 +97,141 @@
 .left-contain h5 {
     color: #ea0763;
 }
-.left-contain p{
+
+.left-contain p {
     font-size: 15px;
 }
 @media (max-width: 1024px) {
-    .minute{
+    .minute {
         position: relative;
         left: 110px;
         bottom: 70px;
     }
 }
 @media (max-width: 800px) {
-    .left-contain h4{
-        width:55%;
+    .left-contain h4 {
+        width: 55%;
     }
-    .minute{
+    .minute {
         position: relative;
         left: 0px;
         bottom: 0px;
     }
-    .left-contain p{
+    .left-contain p {
         padding-bottom: 35px;
     }
-    .date{
-        position: relative;
-        bottom: 30px;
-        left: 100px;
+    .date {
+        margin-left: 80px;
+    }
+    .date a{
+        margin-right: 290px;
     }
 }
+
 @media (max-width: 600px) {
-    .left-contain h4{
-        width:100%;
+    .left-contain h4 {
+        width: 100%;
         font-size: 21px;
     }
-    .day{
+    .day {
         position: relative;
         right: 35px;
     }
-    .hour{
+    .hour {
         position: relative;
         right: 35px;
     }
-    .minute{
+    .minute {
         position: relative;
         bottom: 55px;
         left: 50px;
     }
 }
+
 @media (max-width: 400px) {
-    .left-contain h4{
-        width:100%;
+    .left-contain h4 {
+        width: 100%;
         font-size: 19px;
     }
 
 }
+
 @media (max-width: 320px) {
-    .left-contain h4{
-        width:100%;
+    .left-contain h4 {
+        width: 100%;
         font-size: 21px;
     }
-    .day{
+
+    .day {
         position: relative;
         right: 70px;
     }
-    .hour{
+
+    .hour {
         position: relative;
         right: 45px;
     }
-    .minute{
+
+    .minute {
         position: relative;
         bottom: 55px;
         left: 0px;
     }
 }
-.day h3{
+
+.day h3 {
     position: relative;
     bottom: 102px;
     margin-left: 43px;
     color: #3b1d82;
 }
-.day span{
+
+.day span {
     font-size: 14px;
     font-weight: 300;
     position: relative;
     bottom: 114px;
     margin-left: 53px;
 }
+
 .hour h3 {
     position: relative;
     bottom: 102px;
     margin-left: 50px;
     color: #3b1d82;
 }
-.hour span{
+
+.hour span {
     position: relative;
     bottom: 115px;
     margin-left: 50px;
     color: #3b1d82;
 }
-.date{
+
+.date {
     color: #ea0763;
     font-size: 18px;
     position: relative;
     bottom: 30px;
     left: 100px;
+}
+.get-ticket {
+    color: #3b1d82;
+    font-size: 13px;
+}
+
+.get-ticket:hover {
+    color: #3b1d82;
+}
+
+/*<!--<three section>-->*/
+.section-padding{
+    padding: 120px 0;
+}
+.Speaker{
+    background-image: url("../image/speaker-bg.png");
+    background-size: cover;
+}
+.section-intro{
+    font-family: 'Oswald', sans-serif;
 }
