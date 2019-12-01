@@ -1,3 +1,7 @@
+body html{
+    margin: 0px;
+    padding: 0px;
+}
 /*<<!--<one section>-->*/
 
 .home {
@@ -245,4 +249,57 @@
 }
 .section-intro{
     font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+/*<!--<footer-section>-->*/
+.footer-bg{
+    padding-top: 120px;
+    background: #111429
+}
+.foot-con h5{
+    font-family:"Oswald",sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.foot-con p{
+    color: #666;
+    font-size: 15px;
+    line-height: 22px;
+}
+.foot-con ul{
+    width: 80%;
+}
+.foot-con ul li{
+    padding-bottom: 8px;
+}
+.foot-con a{
+    color: #666;
+}
+.foot-con a:hover {
+    text-decoration: none;
+}
+.email{
+    background-color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #666;
+    border: none;
+    width: 84%;
+}
+.email-btn{
+    width: 42px;
+    height: 42px;
+    background-color: #ea0763;
+    border: none;
+    position: absolute;
+    bottom: 47px;
+}
+.instafid{
+    font-family:"Oswald",sans-serif;
+    color: white;
 }
