@@ -435,7 +435,6 @@ body html {
     padding: 120px 0px;
     background: #f7f7f7;
 }
-
 .ticket-Schedule h1 {
     color: #3b1d82;
     font-family: "Oswald", sans-serif;
@@ -492,13 +491,16 @@ body html {
     background: #f7f7f7;
 }
 .ticket-list a{
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 45px;
 }
-
 .price-btn:hover {
     text-decoration: none;
     background: #ea0763;
     color: white;
+}
+.ticket-list:hover .price-heading{
+    background: #3b1d82;
 }
 
 
