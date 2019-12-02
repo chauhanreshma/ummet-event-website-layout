@@ -1,7 +1,8 @@
-body html{
+body html {
     margin: 0px;
     padding: 0px;
 }
+
 /*<<!--<one section>-->*/
 
 .home {
@@ -30,6 +31,7 @@ body html{
 .banner-section {
     padding-top: 150px;
 }
+
 @media (max-width: 600px) {
     .banner-section img {
         width: 35px;
@@ -73,12 +75,14 @@ body html{
     padding-bottom: 40px;
     background-color: #f7f7f7;
 }
+
 .left-contain h4 {
     color: #3b1d82;
     font-weight: 500;
     width: 45%;
     font-family: 'Oswald', sans-serif;
 }
+
 .left-contain h5 {
     color: #ea0763;
 }
@@ -86,38 +90,45 @@ body html{
 .left-contain p {
     font-size: 15px;
 }
-@media (min-width: 1024px){
-    .date{
+
+@media (min-width: 1024px) {
+    .date {
         position: relative;
         bottom: 30px;
         left: 100px;
     }
 }
+
 @media (max-width: 1024px) {
     .minute {
         position: relative;
         left: 110px;
         bottom: 70px;
     }
-    .date{
+
+    .date {
         position: relative;
         bottom: 90px;
         left: 50px;
     }
 }
+
 @media (max-width: 800px) {
     .left-contain h4 {
         width: 55%;
     }
+
     .minute {
         position: relative;
         left: 0px;
         bottom: 0px;
     }
+
     .left-contain p {
         padding-bottom: 35px;
     }
-    .date{
+
+    .date {
         position: relative;
         bottom: 30px;
         left: 145px;
@@ -129,20 +140,24 @@ body html{
         width: 100%;
         font-size: 21px;
     }
+
     .day {
         position: relative;
         right: 35px;
     }
+
     .hour {
         position: relative;
         right: 35px;
     }
+
     .minute {
         position: relative;
         bottom: 55px;
         left: 50px;
     }
-    .date{
+
+    .date {
         position: relative;
         bottom: 90px;
         left: -25px;
@@ -155,31 +170,37 @@ body html{
         font-size: 19px;
     }
 }
+
 @media (max-width: 320px) {
     .left-contain h4 {
         width: 100%;
         font-size: 21px;
     }
+
     .day {
         position: relative;
         right: 70px;
     }
+
     .hour {
         position: relative;
         right: 45px;
     }
+
     .minute {
         position: relative;
         bottom: 55px;
         left: 0px;
     }
 }
+
 .day h3 {
     position: relative;
     bottom: 102px;
     margin-left: 43px;
     color: #3b1d82;
 }
+
 .day span {
     font-size: 14px;
     font-weight: 300;
@@ -187,71 +208,85 @@ body html{
     bottom: 114px;
     margin-left: 53px;
 }
+
 .hour h3 {
     position: relative;
     bottom: 102px;
     margin-left: 50px;
     color: #3b1d82;
 }
+
 .hour span {
     position: relative;
     bottom: 115px;
     margin-left: 50px;
     color: #3b1d82;
 }
+
 .date {
     color: #ea0763;
     font-size: 18px;
 }
+
 .get-ticket {
     color: #3b1d82;
     font-size: 13px;
 }
+
 .get-ticket:hover {
     color: #3b1d82;
 }
 
 /*<!--<three section>-->*/
-.ummet-section{
+.ummet-section {
     padding: 110px 0px;
 }
-.ummet-intro{
+
+.ummet-intro {
     font-family: 'Oswald', sans-serif;
 }
-.ummet-intro h1{
+
+.ummet-intro h1 {
     color: #3b1d82;
 }
-.blue-img{
+
+.blue-img {
     position: absolute;
     top: 0px;
     left: 140px;
     opacity: 0;
 }
-.blue-img:hover .trophy{
+
+.blue-img:hover .trophy {
     color: white;
 }
-.gray-img:hover .blue-img{
+
+.gray-img:hover .blue-img {
     opacity: 1;
     transition: all 0.3s ease 0s;
 }
-.trophy{
+
+.trophy {
     font-size: 40px;
     color: #3b1d82;
     position: absolute;
     top: 28px;
     margin-left: 28px;
 }
-.trophy-2{
+
+.trophy-2 {
     font-size: 40px;
     color: white;
     position: absolute;
     top: 28px;
     margin-left: 28px;
 }
-.gray-img h5{
+
+.gray-img h5 {
     font-family: "Oswald", sans-serif;
 }
-.gray-img p{
+
+.gray-img p {
     font-weight: 300;
     width: 85%;
     margin-left: 27px;
@@ -259,116 +294,249 @@ body html{
     margin-top: 20px;
 }
 
+.ummet-btn-1 {
+    padding: 12px 54px;
+    border: solid 1px #3b1d82;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+}
 
+.ummet-btn-1:hover {
+    text-decoration: none;
+    background: #3b1d82;
+    color: white;
+}
 
+@media (max-width: 425px) {
+    .ummet-btn-1 {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+}
 
-
-
-
+@media (max-width: 320px) {
+    .ummet-btn-1 {
+        padding: 10px 25px;
+        font-size: 12px;
+        margin-left: 50px;
+    }
+}
 
 /*<four section>*/
-.section-padding{
+.section-padding {
     padding: 120px 0;
 }
-.Speaker{
+
+.Speaker {
     background-image: url("../image/speaker-bg.png");
     background-size: cover;
 }
-.section-intro{
+
+.section-intro {
     font-family: 'Oswald', sans-serif;
 }
-.card-img{
+
+.card-img {
     width: 100%;
 }
-.card-speaker{
+
+.card-speaker {
     border: solid 10px #fff;
     position: relative;
     overflow: hidden;
 }
-.speaker-footer{
+
+.speaker-footer {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background: rgba(59,29,130,0.8);
+    background: rgba(59, 29, 130, 0.8);
     padding: 10px 5px;
     color: white;
     z-index: 2;
 }
-.speaker-social{
+
+.speaker-social {
     position: absolute;
     top: 40%;
     left: 33%;
     text-align: center;
 }
-.speaker-social li i{
+
+.speaker-social li i {
     color: white;
     font-size: 14px;
     opacity: 0.7;
 }
+
 .speaker-overlay ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.speaker-overlay li{
+
+.speaker-overlay li {
     display: inline-block;
     margin: 8px;
 }
-.speaker-overlay{
+
+.speaker-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(59,29,130,0.8);
+    background: rgba(59, 29, 130, 0.8);
     width: 100%;
     height: 100%;
     transition: all 0.6s ease;
     opacity: 0;
     transform: translateY(-60px);
- }
-.card-speaker:hover .speaker-footer{
-    background: rgba(234,7,99,0.6);
 }
-.card-speaker:hover .speaker-overlay{
+
+.card-speaker:hover .speaker-footer {
+    background: rgba(234, 7, 99, 0.6);
+}
+
+.card-speaker:hover .speaker-overlay {
     opacity: 1;
     transform: translateY(0);
 }
 
+/*<five-section>*/
+.Conference-Schedule {
+    padding: 120px 0px;
+}
+
+.Schedule h1 {
+    color: #3b1d82;
+    font-family: "Oswald", sans-serif;
+}
+
+.schedule li {
+    background: red;
+    padding: 13px 45px;
+    text-align: center;
+}
+
+.schedule-list {
+    text-decoration: none;
+}
 
 
+<!-- /*<six-section>*/
+-->
+.Choose-Ticket {
+    padding: 120px 0px;
+    background: #f7f7f7;
+}
 
+.ticket-Schedule h1 {
+    color: #3b1d82;
+    font-family: "Oswald", sans-serif;
+}
 
+.ticket-list {
+    border-radius: 4px;
+    font-family: "Oswald", sans-serif;
+}
+
+.price {
+    font-size: 60px;
+}
+.price span {
+    font-size: 40px;
+}
+.price-heading {
+    padding: 40px;
+    border-bottom: solid 1px #ebebeb;
+}
+.pricetable-list {
+    list-style-type: none;
+    padding-left: 0px;
+    padding: 20px 0px;
+    border-bottom: solid 1px #ebebeb;
+}
+.price-list i{
+    font-size: 12px;
+    letter-spacing: 13px;
+    color: #797979;
+}
+.price-list-cross i{
+    font-size: 12px;
+    letter-spacing: 13px;
+    color: #ea0763;
+}
+.pricetable-list span{
+    color: #797979;
+    font-family: sans-serif;
+}
+.pricetable-list li{
+    margin-bottom: 8px;
+}
+.price-btn {
+    padding: 12px 54px;
+    border: solid 1px #eeeeee;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    background: #f7f7f7;
+}
+.ticket-list a{
+    margin-top: 20px;
+}
+
+.price-btn:hover {
+    text-decoration: none;
+    background: #ea0763;
+    color: white;
+}
 
 
 /*<!--<footer-section>-->*/
-.footer-bg{
+.footer-bg {
     padding-top: 120px;
     background: #111429
 }
-.foot-con h5{
-    font-family:"Oswald",sans-serif;
+
+.foot-con h5 {
+    font-family: "Oswald", sans-serif;
     font-weight: 700;
     color: white;
 }
-.foot-con p{
+
+.foot-con p {
     color: #666;
     font-size: 15px;
     line-height: 22px;
 }
-.foot-con ul{
+
+.foot-con ul {
     width: 80%;
 }
-.foot-con ul li{
+
+.foot-con ul li {
     padding-bottom: 8px;
 }
-.foot-con a{
+
+.foot-con a {
     color: #666;
 }
+
 .foot-con a:hover {
     text-decoration: none;
 }
-.email{
+
+.email {
     background-color: white;
     font-size: 14px;
     padding: 10px 20px;
@@ -376,7 +544,8 @@ body html{
     border: none;
     width: 84%;
 }
-.email-btn{
+
+.email-btn {
     width: 42px;
     height: 42px;
     background-color: #ea0763;
@@ -384,7 +553,8 @@ body html{
     position: absolute;
     bottom: 47px;
 }
-.instafid{
-    font-family:"Oswald",sans-serif;
+
+.instafid {
+    font-family: "Oswald", sans-serif;
     color: white;
 }
