@@ -227,10 +227,37 @@ body html{
     left: 140px;
     opacity: 0;
 }
+.blue-img:hover .trophy{
+    color: white;
+}
 .gray-img:hover .blue-img{
     opacity: 1;
+    transition: all 0.3s ease 0s;
 }
-
+.trophy{
+    font-size: 40px;
+    color: #3b1d82;
+    position: absolute;
+    top: 28px;
+    margin-left: 28px;
+}
+.trophy-2{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 28px;
+    margin-left: 28px;
+}
+.gray-img h5{
+    font-family: "Oswald", sans-serif;
+}
+.gray-img p{
+    font-weight: 300;
+    width: 85%;
+    margin-left: 27px;
+    color: #797979;
+    margin-top: 20px;
+}
 
 
 
@@ -307,11 +334,7 @@ body html{
     opacity: 1;
     transform: translateY(0);
 }
-@media (max-width: 768px) {
-    card-speaker-one{
-        padding-top: 30px;
-    }
-}
+
 
 
 
