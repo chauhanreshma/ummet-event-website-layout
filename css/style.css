@@ -495,12 +495,7 @@ body html {
     font-size: 15px;
 }
 
-
-
-
-
-<!-- /*<six-section>*/
--->
+<!-- /*<six-section>*/ -->
 .Choose-Ticket {
     padding: 120px 0px;
     background: #f7f7f7;
@@ -514,7 +509,6 @@ body html {
     border-radius: 4px;
     font-family: "Oswald", sans-serif;
 }
-
 .price {
     font-size: 60px;
 }
@@ -525,11 +519,29 @@ body html {
     padding: 40px;
     border-bottom: solid 1px #ebebeb;
 }
+.ticket-list:hover .price-heading{
+    border-bottom: solid 1px #797979;
+}
+.ticket-list:hover .price-list{
+    color: white;
+}
+.ticket-list:hover .price-list i{
+    color: white;
+}
+.ticket-list:hover .price-list-cross{
+    color: white;
+}
 .pricetable-list {
     list-style-type: none;
     padding-left: 0px;
     padding: 20px 0px;
     border-bottom: solid 1px #ebebeb;
+}
+.ticket-list:hover .pricetable-list{
+    border-bottom: solid 1px #797979;
+}
+.all-font:hover{
+    color: white;
 }
 .price-list i{
     font-size: 12px;
@@ -559,18 +571,31 @@ body html {
     text-transform: uppercase;
     color: black;
     background: #f7f7f7;
-}
-.ticket-list a{
-    margin-top: 25px;
-    margin-bottom: 45px;
+    margin-top: 15px;
 }
 .price-btn:hover {
     text-decoration: none;
     background: #ea0763;
     color: white;
 }
+.price-btn-a{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .ticket-list:hover .price-heading{
     background: #3b1d82;
+}
+.ticket-list:hover .pricetable-list{
+    background: #3b1d82;
+}
+.ticket-list:hover .price-btn{
+    background: #ea0763;
+}
+.ticket-list:hover .price-btn-a{
+    background: #3b1d82;
+}
+.ticket-list:hover .price-btn{
+    color: white;
 }
 
 
