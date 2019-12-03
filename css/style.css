@@ -425,7 +425,6 @@ body html {
     display: inline-block;
     font-family: "Oswald", sans-serif;
 }
-
 .schedule-list{
     text-decoration: none;
 }
@@ -448,6 +447,52 @@ body html {
 }
 .bg-list-2 h5{
     color: white;
+}
+@media(max-width: 800px) {
+    .schedule li{
+        padding: 0px 22px;
+        margin-right: -20px;
+    }
+}
+@media(max-width: 425px) {
+    .schedule li{
+        padding: 0px 10px;
+        position: relative;
+        right: 53px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 375px) {
+    .schedule li{
+        padding: 0px 10px;
+        position: relative;
+        right: 29px;
+        margin-bottom: 10px;
+    }
+}
+.schedule-img{
+    font-family: "Oswald", sans-serif;
+    background: #3b1d82;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+.main-schedule{
+    background: #f7f7f7;
+}
+.main-schedule:hover .schedule-img{
+    background: #ea0763;
+}
+.schedule-text h6{
+    font-size: 14px;
+    color: #797979;
+}
+.schedule-text h4{
+    font-family: "Oswald", sans-serif;
+}
+.schedule-text p{
+    color:#797979;
+    font-size: 15px;
 }
 
 
