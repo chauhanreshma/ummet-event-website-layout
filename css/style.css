@@ -412,94 +412,115 @@ body html {
 .Conference-Schedule {
     padding: 120px 0px;
 }
+
 .Schedule h1 {
     color: #3b1d82;
     font-family: "Oswald", sans-serif;
 }
-.schedule ul{
+
+.schedule ul {
     list-style-type: none;
 }
-.schedule li{
+
+.schedule li {
     padding: 13px 42px;
-    background: #f7f7f7 ;
+    background: #f7f7f7;
     display: inline-block;
     font-family: "Oswald", sans-serif;
 }
-.schedule-list{
+
+.schedule-list {
     text-decoration: none;
 }
-.schedule a{
+
+.schedule a {
     color: black;
 }
-.schedule:hover a{
+
+.schedule:hover a {
     color: black;
 }
-.schedule p{
+
+.schedule p {
     font-size: 15px;
     font-family: sans-serif;
-    color:#797979 ;
+    color: #797979;
 }
-.bg-list-2{
+
+.bg-list-2 {
     background: #3b1d82 !important;
 }
-.bg-list-2 p{
+
+.bg-list-2 p {
     color: white;
 }
-.bg-list-2 h5{
+
+.bg-list-2 h5 {
     color: white;
 }
-@media(max-width: 800px) {
-    .schedule li{
+
+@media (max-width: 800px) {
+    .schedule li {
         padding: 0px 22px;
         margin-right: -20px;
     }
 }
-@media(max-width: 425px) {
-    .schedule li{
+
+@media (max-width: 425px) {
+    .schedule li {
         padding: 0px 10px;
         position: relative;
         right: 53px;
         margin-bottom: 10px;
     }
 }
-@media(max-width: 375px) {
-    .schedule li{
+
+@media (max-width: 375px) {
+    .schedule li {
         padding: 0px 10px;
         position: relative;
         right: 29px;
         margin-bottom: 10px;
     }
 }
-.schedule-img{
+
+.schedule-img {
     font-family: "Oswald", sans-serif;
     background: #3b1d82;
     color: white;
     text-align: center;
     padding-top: 35px;
 }
-.main-schedule{
+
+.main-schedule {
     background: #f7f7f7;
 }
-.main-schedule:hover .schedule-img{
+
+.main-schedule:hover .schedule-img {
     background: #ea0763;
 }
-.schedule-text h6{
+
+.schedule-text h6 {
     font-size: 14px;
     color: #797979;
 }
-.schedule-text h4{
+
+.schedule-text h4 {
     font-family: "Oswald", sans-serif;
 }
-.schedule-text p{
-    color:#797979;
+
+.schedule-text p {
+    color: #797979;
     font-size: 15px;
 }
 
-<!-- /*<six-section>*/ -->
+<!-- /*<six-section>*/
+-->
 .Choose-Ticket {
     padding: 120px 0px;
     background: #f7f7f7;
 }
+
 .ticket-Schedule h1 {
     color: #3b1d82;
     font-family: "Oswald", sans-serif;
@@ -509,57 +530,72 @@ body html {
     border-radius: 4px;
     font-family: "Oswald", sans-serif;
 }
+
 .price {
     font-size: 60px;
 }
+
 .price span {
     font-size: 40px;
 }
+
 .price-heading {
     padding: 40px;
     border-bottom: solid 1px #ebebeb;
 }
-.ticket-list:hover .price-heading{
+
+.ticket-list:hover .price-heading {
     border-bottom: solid 1px #797979;
 }
-.ticket-list:hover .price-list{
+
+.ticket-list:hover .price-list {
     color: white;
 }
-.ticket-list:hover .price-list i{
+
+.ticket-list:hover .price-list i {
     color: white;
 }
-.ticket-list:hover .price-list-cross{
+
+.ticket-list:hover .price-list-cross {
     color: white;
 }
+
 .pricetable-list {
     list-style-type: none;
     padding-left: 0px;
     padding: 20px 0px;
     border-bottom: solid 1px #ebebeb;
 }
-.ticket-list:hover .pricetable-list{
+
+.ticket-list:hover .pricetable-list {
     border-bottom: solid 1px #797979;
 }
-.all-font:hover{
+
+.all-font:hover {
     color: white;
 }
-.price-list i{
+
+.price-list i {
     font-size: 12px;
     letter-spacing: 13px;
     color: #797979;
 }
-.price-list-cross i{
+
+.price-list-cross i {
     font-size: 12px;
     letter-spacing: 13px;
     color: #ea0763;
 }
-.pricetable-list span{
+
+.pricetable-list span {
     color: #797979;
     font-family: sans-serif;
 }
-.pricetable-list li{
+
+.pricetable-list li {
     margin-bottom: 8px;
 }
+
 .price-btn {
     padding: 12px 54px;
     border: solid 1px #eeeeee;
@@ -573,72 +609,87 @@ body html {
     background: #f7f7f7;
     margin-top: 15px;
 }
+
 .price-btn:hover {
     text-decoration: none;
     background: #ea0763;
     color: white;
 }
-.price-btn-a{
+
+.price-btn-a {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.ticket-list:hover .price-heading{
+
+.ticket-list:hover .price-heading {
     background: #3b1d82;
 }
-.ticket-list:hover .pricetable-list{
+
+.ticket-list:hover .pricetable-list {
     background: #3b1d82;
 }
-.ticket-list:hover .price-btn{
+
+.ticket-list:hover .price-btn {
     background: #ea0763;
 }
-.ticket-list:hover .price-btn-a{
+
+.ticket-list:hover .price-btn-a {
     background: #3b1d82;
 }
-.ticket-list:hover .price-btn{
+
+.ticket-list:hover .price-btn {
     color: white;
 }
 
-<!--/*<seven-section>*/-->
-.Event-Plan{
+<!-- /*<seven-section>*/
+-->
+.Event-Plan {
     background-image: url("../image/sponsor-bg.png");
     background-size: cover;
     padding: 120px 0px;
 }
-.Event-Plan h4{
+
+.Event-Plan h4 {
     font-family: "Oswald", sans-serif;
     text-align: center;
 }
-.sponsor-single{
+
+.sponsor-single {
     border: solid 5px white;
     height: 140px;
     padding-top: 40px;
 }
+
 @media (min-width: 1024px) {
-    .sponsor-single{
+    .sponsor-single {
         border: solid 5px white;
         height: 140px;
         padding-top: 40px;
         width: 95%;
     }
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
     .onr {
         max-width: 75%;
     }
 }
-.sponsor-single:hover{
-box-shadow: 0px 5px 20px 0px rgba(10,9,13,0.15);
+
+.sponsor-single:hover {
+    box-shadow: 0px 5px 20px 0px rgba(10, 9, 13, 0.15);
 }
 
-<!--/*<eight-section>*/-->
-.party{
+<!-- /*<eight-section>*/
+-->
+.party {
     background-image: url("../image/speaker-bg.png");
     background-size: cover;
     padding: 120px 0px;
 }
-.gallery-uper{
+
+.gallery-uper {
     position: absolute;
-    background: rgba(1,1,14,0.4);
+    background: rgba(1, 1, 14, 0.4);
     width: 100%;
     height: 100%;
     top: 0;
@@ -648,17 +699,19 @@ box-shadow: 0px 5px 20px 0px rgba(10,9,13,0.15);
     transition: all 0.3s ease 0s;
     transform: translateY(60px);
 }
-.glry-over:hover .gallery-uper{
+
+.glry-over:hover .gallery-uper {
     transform: translateY(0);
     opacity: 1;
     z-index: 1;
 }
-.gl-uper-icon{
+
+.gl-uper-icon {
     width: 60px;
     height: 60px;
     display: block;
     border-radius: 50%;
-    background: rgba(234,7,99,0.8);
+    background: rgba(234, 7, 99, 0.8);
     text-align: center;
     padding-top: 17px;
     color: white;
@@ -669,12 +722,64 @@ box-shadow: 0px 5px 20px 0px rgba(10,9,13,0.15);
     transform: translate(-50%, -50%);
 }
 
+<!-- /*<nine-section>*/
+-->
 
+.blog-party {
+    padding: 120px 0px;
+}
 
+.card-blog {
+    border: solid 10px #f7f7f7;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+.card-blog:hover {
+    border: solid 10px #3b1d82;
+    background: #3b1d82;
+}
+
+.card-blog img {
+    width: 520px;
+}
+
+.blog-body {
+    font-family: "Oswald", sans-serif;
+    padding: 35px 0px;
+}
+.blog-tex {
+    color: black;
+}
+.blog-tex:hover {
+    text-decoration: none;
+    color: white;
+}
+.blog-info{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.blog-icon{
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-blog:hover .blog-tex {
+    color: white;
+}
+.blog-icon span{
+    font-family: sans-serif;
+    padding-left: 5px;
+}
+.card-blog:hover .blog-icon{
+    color: white;
+}
 
 /*<!--<footer-section>-->*/
 .footer-bg {
     padding-top: 120px;
+    padding-bottom: 30px;
     background: #111429
 }
 
@@ -723,8 +828,31 @@ box-shadow: 0px 5px 20px 0px rgba(10,9,13,0.15);
     position: absolute;
     bottom: 47px;
 }
-
 .instafid {
     font-family: "Oswald", sans-serif;
     color: white;
+}
+.blog-lib{
+    color:#ea0763 ;
+}
+.blog-lib:hover{
+    color:#ea0763 ;
+    text-decoration: none;
+}
+.blog-lib-icon {
+    color:#ea0763 ;
+}
+.footer-icon{
+    list-style-type: none;
+}
+.footer-icon li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.foot-a-icon{
+    color: rgba(221,221,221,0.5);
+    font-size: 18px;
+}
+.foot-a-icon:hover{
+    color: #ea0763;
 }
